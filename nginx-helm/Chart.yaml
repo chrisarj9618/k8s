@@ -1,4 +1,4 @@
-apiVersion: v3
+apiVersion: v1
 name: nginx
 description: Simple NGINX Helm chart for Argo CD GitOps
 type: application
