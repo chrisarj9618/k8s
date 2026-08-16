@@ -4,6 +4,17 @@ This project demonstrates a basic **GitOps deployment using Argo CD and Kubernet
 
 The goal is to understand how Argo CD continuously compares the desired state stored in Git with the actual state running inside Kubernetes.
 
+## Prerequisites
+
+* Windows System
+* Docker Desktop
+* Minikube
+* kubernetes Extension enabled in Docker Desktop
+* GitHUB
+* Argo CD
+
+For this exercise, Minikube is used as the Kubernetes cluster.
+
 ## Architecture
 
 ```text
@@ -25,18 +36,10 @@ The goal is to understand how Argo CD continuously compares the desired state st
               Pod       Pod
 ```
 
-## Prerequisites
 
-Make sure the following are installed:
 
-* Kubernetes
-* Minikube
-* kubectl
-* Git
-* Argo CD
-* GitLab or GitHub repository
 
-For this exercise, Minikube is used as the Kubernetes cluster.
+
 
 ---
 
