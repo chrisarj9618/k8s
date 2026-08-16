@@ -7,8 +7,8 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-  - port: {{ .Values.service.Port }}
-    targetPort: {{ .Values.service.Port }}
-    protocol: TCP
+    - port: {{ .Values.service.Port }}
+      targetPort: {{ .Values.service.Port }}
+      protocol: TCP
   selector:
     app: nginx
