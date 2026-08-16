@@ -7,5 +7,5 @@ image:
 
 
 service:
-  type: ClusterIP
+  type: NodePort
   port: 80
