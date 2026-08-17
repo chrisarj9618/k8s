@@ -140,6 +140,11 @@ In VSCODE
 ```VSCODE
  kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | %{ [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($_)) }
 ```
+
+For Macos and Visual Studio Code or linux terminal 
+```
+kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo
+```
 The output is the initial password for the `admin` user.
 
 Username:
