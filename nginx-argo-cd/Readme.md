@@ -6,6 +6,7 @@ The goal is to understand how Argo CD continuously compares the desired state st
 
 ## Prerequisites
 
+
 * Windows System
 * Docker Desktop
 * Minikube
